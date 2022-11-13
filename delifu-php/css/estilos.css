@@ -1,0 +1,140 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+main>.container{
+  padding: 30px 0;
+}
+.deli{
+  width: 300px;
+}
+.titulo{
+  font-family: 'Lobster', cursive;
+  text-align: center;
+  font-size: 70px;
+}
+.titulogrande{
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  color: #8B0000;
+}
+.titulomedio{
+  font-family: 'Montserrat Alternates', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: #86710E;
+}
+.bebidas{
+  margin-top: 10px;
+}
+.izquierda{
+  background: #0E2139;
+  width: 50%;
+  height: 400px;
+}
+.derecha{
+  background-size: cover;
+  background-position: center;
+  width: 50%;
+
+}
+.izquierda2{
+  background-size: cover;
+  background-position: center;
+  width: 40%;
+
+}
+.derecha2{
+  background: #0E2139;
+  width: 70%;
+  height: 400px;
+}
+#pantalla-dividida{
+  display: flex;
+}
+.chef{
+  width: 100%;
+  height: 400px;
+}
+.open{
+  width: 100%;
+  height: 400px;
+}
+.sobre{
+  margin-top: 30px;
+  color: white;
+  text-align: center;
+}
+.nosotros{
+  color: yellow;
+}
+.cuadro-texto{
+  margin: 40px;
+  color: white;
+  justify-content: center;
+  text-align: justify;
+}
+.pie-pagina{
+  width: 100%;
+  background-color: #0a141d;
+}
+.pie-pagina .grupo-1{
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap:50px;
+  padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+  width: 190px;
+}
+.pie-pagina .grupo-1 .box h2{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+.pie-pagina .grupo-1 .box P{
+  color: #efefef;
+  margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  background-color: #0d2033;
+  text-align: center;
+  transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+  color: aqua;
+}
+.pie-pagina .grupo-2{
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+.pie-pagina .grupo-2 small{
+  font-size: 15px;
+}
+.horario{
+  margin-top: 5%;
+  list-style-type: none;
+  color: white;
+  text-align: center;
+}
